@@ -1,4 +1,4 @@
 .App {
-  background-image: './GundamBackground.jpg'
+  background-image: url('./GundamBackground.jpg')
 }
 
