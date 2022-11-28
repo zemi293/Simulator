@@ -44,6 +44,7 @@ const GundamList = { //List of Gundams
 	},
 
 	ShiningG: {
+    ImageSrc: require('./GundamProfiles/ShiningG.jpeg'),
 		HP: 10,
 		Dex: 2,
 		Str: 5,
@@ -57,7 +58,7 @@ const GundamList = { //List of Gundams
 function App() {
   return (
     <div className="App">
-      
+      <Fighter GundamList = {GundamList}/>
     </div>
   );
 }
