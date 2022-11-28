@@ -18,6 +18,8 @@ class Fighter extends React.Component {
                 alt = 'GundamFighter'>
                 </img>
             </div>
+            <div className='GundamStats'>
+            </div>
         </div>
         )
     }
