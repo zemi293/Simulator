@@ -9,8 +9,10 @@ class Fighter extends React.Component {
 
     render() {
         return (
-        <div>
-            <div className='GundamImg'></div>
+        <div className='GundamFighter'>
+            <div className='GundamImg'>
+                <img src={this.props.GundamList.ShiningG.ImageSrc}></img>
+            </div>
         </div>
         )
     }
