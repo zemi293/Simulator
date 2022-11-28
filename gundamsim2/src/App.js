@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Fighter from './components/GundamFighter';
+import Fighter from './components/GundamFighter/GundamFighter.js';
 
 const GundamList = { //List of Gundams 
 	StrikeG: {
