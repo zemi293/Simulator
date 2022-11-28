@@ -19,6 +19,10 @@ class Fighter extends React.Component {
                 </img>
             </div>
             <div className='GundamStats'>
+                <p>`${this.props.GundamList.ShiningG.HP}`</p>
+                <p>`${this.props.GundamList.ShiningG.Str}`</p>
+                <p>`${this.props.GundamList.ShiningG.Dex}`</p>
+                <p>`${this.props.GundamList.ShiningG.Const}`</p>
             </div>
         </div>
         )
