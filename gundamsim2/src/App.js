@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Fighter from './components/GundamFighter/GundamFighter.js';
 import Profile from './components/GundamProfiles/GundamProfile.js'
