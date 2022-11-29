@@ -47,6 +47,7 @@ const GundamList = { //List of Gundams
 	ShiningG: {
     	ImageSrc: require('./GundamProfiles/ShiningG.jpeg'),
 		ProfilePic: require('./GundamProfiles/ShingingGProfile.jpeg'),
+		GundamWiki: 'https://gundam.fandom.com/wiki/GF13-017NJ_Shining_Gundam',
 		HP: 10,
 		Dex: 2,
 		Str: 5,
