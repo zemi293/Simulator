@@ -45,7 +45,8 @@ const GundamList = { //List of Gundams
 	},
 
 	ShiningG: {
-    ImageSrc: require('./GundamProfiles/ShiningG.jpeg'),
+    	ImageSrc: require('./GundamProfiles/ShiningG.jpeg'),
+		ProfilePic: require('./GundamProfiles/ShingingGProfile.jpeg'),
 		HP: 10,
 		Dex: 2,
 		Str: 5,
