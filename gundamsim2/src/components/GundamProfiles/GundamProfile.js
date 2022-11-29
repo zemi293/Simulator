@@ -10,8 +10,8 @@ class Profile extends React.Component {
         <div className="GundamProfile">
             <h2>Shining Gundam</h2>
             <div className='ProfilePic'>
-            <a href= {this.props.ShiningG.GundamWiki}>
-                <img src={this.props.ShiningG.ProfilePic}></img>
+            <a href= {this.props.GundamList.ShiningG.GundamWiki}>
+                <img src={this.props.GundamList.ShiningG.ProfilePic}></img>
             </a>
             </div>
         </div>
