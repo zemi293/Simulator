@@ -6,6 +6,7 @@ class Profile extends React.Component {
     }
 
     render() {
+        return(
         <div className="GundamProfile">
             <h2>Shining Gundam</h2>
             <div className='ProfilePic'>
@@ -14,5 +15,7 @@ class Profile extends React.Component {
             </a>
             </div>
         </div>
-    }
+    )}
 }
+
+export default Profile;
