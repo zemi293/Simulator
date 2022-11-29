@@ -6,9 +6,11 @@ class Profile extends React.Component {
     }
 
     render() {
-        <div>
+        <div className="GundamProfile">
             <h2>Shining Gundam</h2>
-            <img></img>
+            <div className='ProfilePic'>
+            <img src={this.props.ShiningG.ProfilePic}></img>
+            </div>
         </div>
     }
 }
