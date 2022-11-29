@@ -13,7 +13,7 @@ class Fighter extends React.Component {
         <div className='GundamFighter'>
             <div className='GundamImg'>
                 <img src={this.props.GundamList.ShiningG.ImageSrc} 
-                height = '500' 
+                height = '500px' 
                 width= '350px' 
                 alt = 'GundamFighter'>
                 </img>
