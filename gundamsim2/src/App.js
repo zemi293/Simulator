@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Fighter from './components/GundamFighter/GundamFighter.js';
+import Profile from './GundamProfiles/GundamProfile'
 
 const GundamList = { //List of Gundams 
 	StrikeG: {
@@ -59,6 +60,7 @@ function App() {
   return (
     <div className="App">
       <Fighter GundamList = {GundamList}/>
+	  <Profile GundamList = {GundamList}/>
     </div>
   );
 }

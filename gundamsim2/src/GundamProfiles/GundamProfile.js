@@ -5,5 +5,7 @@ class Profile extends React.Component {
         super(props)
     }
 
-    
+    render() {
+        <h2>{this.props.name}</h2>
+    }
 }
