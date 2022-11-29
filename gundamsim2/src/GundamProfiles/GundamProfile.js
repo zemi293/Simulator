@@ -6,6 +6,9 @@ class Profile extends React.Component {
     }
 
     render() {
-        <h2>{this.props.name}</h2>
+        <div>
+            <h2>Shining Gundam</h2>
+            <img></img>
+        </div>
     }
 }
