@@ -5,6 +5,8 @@ import Profile from './components/GundamProfiles/GundamProfile.js'
 const GundamList = [ //List of Gundams 
 	{
 		Name: Strike_Gundam,
+		ImageSrc:require(),
+		ProfilePic:require(),
 		HP: 10,
 		Dex: 3,
 		Str: 3,
@@ -15,6 +17,8 @@ const GundamList = [ //List of Gundams
 	},
 
 	{	Name: ZetaG,
+		ImageSrc:require(),
+		ProfilePic:require(),
 		HP: 10,
 		Dex: 5,
 		Str: 3,
@@ -26,6 +30,8 @@ const GundamList = [ //List of Gundams
 
 	{
 		Name: Sinanju,
+		ImageSrc:require(),
+		ProfilePic:require(),
 		HP: 10,
 		Dex: 4,
 		Str: 4,
@@ -37,6 +43,8 @@ const GundamList = [ //List of Gundams
 
  	{
 		Name: Command_Quanta,
+		ImageSrc:require(),
+		ProfilePic:require(),
 		HP: 10,
 		Dex: 4,
 		Str: 3,
