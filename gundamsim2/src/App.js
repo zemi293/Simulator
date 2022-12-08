@@ -2,8 +2,9 @@ import './App.css';
 import Fighter from './components/GundamFighter/GundamFighter.js';
 import Profile from './components/GundamProfiles/GundamProfile.js'
 
-const GundamList = { //List of Gundams 
-	StrikeG: {
+const GundamList = [ //List of Gundams 
+	{
+		Name: Strike_Gundam,
 		HP: 10,
 		Dex: 3,
 		Str: 3,
@@ -13,7 +14,7 @@ const GundamList = { //List of Gundams
 		}
 	},
 
-	ZetaG: {
+	{	Name: ZetaG,
 		HP: 10,
 		Dex: 5,
 		Str: 3,
@@ -23,7 +24,8 @@ const GundamList = { //List of Gundams
 		}
 	},
 
-	Sinanju: {
+	{
+		Name: Sinanju,
 		HP: 10,
 		Dex: 4,
 		Str: 4,
@@ -33,7 +35,8 @@ const GundamList = { //List of Gundams
 		}
 	},
 
- 	CommQuantG: {
+ 	{
+		Name: Command_Quanta,
 		HP: 10,
 		Dex: 4,
 		Str: 3,
@@ -43,7 +46,8 @@ const GundamList = { //List of Gundams
 		}
 	},
 
-	ShiningG: {
+	{
+		Name: Shining_Gundam,
     	ImageSrc: require('./components/GundamProfiles/ShiningG.jpeg'),
 		ProfilePic: require('./components/GundamProfiles/ShiningGProfile.jpeg'),
 		GundamWiki: 'https://gundam.fandom.com/wiki/GF13-017NJ_Shining_Gundam',
@@ -55,7 +59,7 @@ const GundamList = { //List of Gundams
 			return this.ShiningG
 		}
 	},
-}
+]
 
 function App() {
   return (
