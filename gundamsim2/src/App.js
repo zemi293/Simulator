@@ -31,7 +31,7 @@ const GundamList = [ //List of Gundams
 	{
 		Name: Sinanju,
 		ImageSrc:require(),
-		ProfilePic:require(),
+		ProfilePic:require('./components/GundamProfiles/SinanjuProfile'),
 		HP: 10,
 		Dex: 4,
 		Str: 4,
@@ -43,8 +43,8 @@ const GundamList = [ //List of Gundams
 
  	{
 		Name: Command_Quanta,
-		ImageSrc:require(),
-		ProfilePic:require(),
+		ImageSrc:require('./components/GundamProfiles/Command_Quanta.jpeg'),
+		ProfilePic:require('./components/GundamProfiles/Command_QuantaProfile.jpeg'),
 		HP: 10,
 		Dex: 4,
 		Str: 3,
